@@ -1,0 +1,38 @@
+
+// ------------------reset
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+// ------------------general
+.debug{
+  background-color: rgba(255, 0, 0, 0.26);
+  border: 1px solid black;
+}
+
+@mixin FlexCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body {
+  // background-color: black;
+}
+
+#main_wrapper{
+  width: 100%;
+  min-height: 300px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container{
+  margin: auto;
+  width: 80%;
+  height: 100%;
+  max-width: 1400px;
+}

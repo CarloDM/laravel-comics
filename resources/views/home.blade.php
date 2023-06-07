@@ -18,6 +18,8 @@
                     <img src="img/laravel.png" alt="">
 
                     <h1 class="card-title">Home</h1>
+
+                    <a href="{{route('about')}}">about</a>
                 </div>
             </div>
 

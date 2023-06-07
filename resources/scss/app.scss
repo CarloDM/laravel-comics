@@ -1,16 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
+@import "./general/variabiles";
+@import "./general/general.scss";
+@import "./general/header";
+@import "./general/footer";
 
 .row {
     > * {
-        height: 100vh;
-
+        // height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-
         color: lightcoral;
-        background-color: aquamarine;
-        background-image: url('../img/laravel.png');
+        background-color: rgb(179, 212, 214);
+        // background-image: url('../img/laravel.png');
         background-size: 50px 50px;
     }
 }
