@@ -4,19 +4,4 @@
 @import "./general/header";
 @import "./general/footer";
 
-.row {
-    > * {
-        // height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: lightcoral;
-        background-color: rgb(179, 212, 214);
-        // background-image: url('../img/laravel.png');
-        background-size: 50px 50px;
-    }
-}
 
-img {
-    max-height: 50px;
-}

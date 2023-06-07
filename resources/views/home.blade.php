@@ -13,11 +13,11 @@
 
             <div class="card">
                 <div class="card-body">
-                    <img src="{{ Vite::asset('resources/img/laravel.png') }}" alt="">
+                    {{-- <img src="{{ Vite::asset('resources/img/laravel.png') }}" alt=""> --}}
 
-                    <img src="img/laravel.png" alt="">
+                    <img src="img/laravel.png" alt="" style="width: 10px">
 
-                    <h1 class="card-title">Home</h1>
+                    <h1 class="card-title">{{Route::currentRouteName()}}</h1>
 
                     <a href="{{route('about')}}">about</a>
                 </div>
