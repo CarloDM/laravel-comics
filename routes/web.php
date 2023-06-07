@@ -12,9 +12,14 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+$cards = config('dc-comics');
+$menu = config('menu.main-menu');
 
 Route::get('/', function () {
-    return view('home');
+
+    $cards = config('dc-comics');
+    $menu = config('menu.main-menu');
+    return view('home', compact('cards'));
 })->name('home');
 
 Route::get('/chi-siamo', function () {

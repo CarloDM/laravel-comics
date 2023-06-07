@@ -36,3 +36,28 @@ body {
   height: 100%;
   max-width: 1400px;
 }
+
+.merch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 150px;
+    background-color: rgb(2, 130, 249);
+  }
+  .merch .container {
+    @include FlexCenter;
+    width: 75%;
+    max-width: calc(1400px - 5%);
+  }
+
+  img{
+    width: 50px;
+  }
+
+  .merch_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% / 5);
+  }

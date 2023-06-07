@@ -10,13 +10,15 @@
     @vite('resources/js/app.js')
 </head>
     <body>
+        <main id="main_wrapper" class="">
 
-        @include('partials.header')
+            @include('partials.header')
 
-    <main>
-        @yield('content')
-    </main>
+                @yield('content')
+                @yield('merchandise')
 
-        @include('partials.footer')
+            @include('partials.footer')
+
+        </main>
 </body>
 </html>

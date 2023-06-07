@@ -2,9 +2,6 @@
     $main_menu = config('menu.main-menu');
     // @dd($main_menu)
 @endphp
-<ul>
-
-</ul>
 
 <div class="header debug">
     <div class="container">
